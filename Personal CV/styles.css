@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.ctfassets.net/pdf29us7flmy/3WyIJe69O5yOumjv5Gv01I/f63e9b05be4763bce6561f7555bdbbcf/B7023-How-to-Build-my-Resume-Social.png");
+    background-size: cover;
+    background-position: center;
+}
+  
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+  
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+  
+.myList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home:hover {
+    background-color: lightcoral;
+}
+
+.aboutMe:hover {
+    background-color: lightcoral;
+}
+
+.contact:hover {
+    background-color: lightcoral;
+}
+  
+.myList li {
+    margin-right: 20px;
+}
+  
+.myList li a {
+    text-decoration: none;
+    color: white;
+}
+  
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+}
+  
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+  
+.experience h2 {
+    margin-top: 0;
+}
+  
+.experience h3 {
+    margin-bottom: 5px;
+}
+  
+.experienceText {
+    margin-top: 0;
+}
+  
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+  
+label {
+    margin-top: 10px;
+}
+  
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
